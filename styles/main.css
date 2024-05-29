@@ -6,10 +6,6 @@ body {
     margin: auto;
 }
 
-header {   
-    /* background-color: rgb(246, 205, 181);   */
-}
-
 .container-wrapper {
     display: flex;
     justify-content: space-between;
@@ -31,20 +27,16 @@ header nav {
 
 main {
     padding: 20px;
-    /* background-color: aquamarine; */
-
 }
 
 .introduce {
     display: flex;
     justify-content: space-between;
-    /* background-color: blanchedalmond; */
     padding: 20px;
     align-items: center;
 }
 
 .introduce .description {
-    /* background-color: rgb(243, 192, 117); */
     width: 45%;
     padding: 20px;
     font-family: Montserrat;
@@ -106,12 +98,10 @@ main {
 
 .cards p {
     font-size: 16px;
-
 }
 
 .advice {
     display: flex;
-    /* background-color: blanchedalmond; */
     padding: 20px;
     align-items: center;
 }
