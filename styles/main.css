@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+.container{
+    max-width: 1920px;
+    margin: auto;
+}
+
+header {   
+    /* background-color: rgb(246, 205, 181);   */
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    /* background-color: aquamarine; */
+
+}
+
+.introduce {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    padding: 20px;
+    align-items: center;
+}
+
+.introduce .description {
+    /* background-color: rgb(243, 192, 117); */
+    width: 45%;
+    padding: 20px;
+    font-family: Montserrat;
+
+}
+
+.introduce img {
+    width: 45%;
+}
+
+.advice img {
+    width: 45%;
+}
+
+.introduce .description h2,
+.products h2 {  
+    text-align: center;
+}
+
+.introduce .description button {
+    height: 69px;
+    width: 50%;
+    
+    background-color: #774E2E;
+    color: white;
+    font-size: 20px;
+}
+
+.products {
+    background-color: #FFF9EA;
+    padding: 20px;
+    margin: 20px, 0, 0, 0;
+}
+
+.products .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products .cards article {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.products .cards article img {
+    width: 100%;
+}
+
+.products .cards article .product-description h3 {
+    text-align: center;
+}
+
+.products .cards article .product-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards p {
+    font-size: 16px;
+
+}
+
+.advice {
+    display: flex;
+    /* background-color: blanchedalmond; */
+    padding: 20px;
+    align-items: center;
+}
+
+.list-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list-name li {
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+footer {
+    height: 179px;
+    background-color: #774E2E;
+    color: white;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+@media (max-width:700px) {
+    header nav {
+        width: 80%;
+    }
+}
+
