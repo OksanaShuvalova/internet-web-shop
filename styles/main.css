@@ -123,10 +123,6 @@ footer {
     color: white;
 }
 
-.aligncenter {
-    text-align: center;
-}
-
 @media (max-width:700px) {
     header nav {
         width: 80%;
